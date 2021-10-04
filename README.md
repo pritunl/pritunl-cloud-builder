@@ -13,5 +13,6 @@ Run the commands below to download the builder and verify the checksum.
 ```bash
 wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2142.34/pritunl-builder
 echo "37818a168802f74475a012bfa8a48023723ba6b83126337e59f81fd932cb3d21  pritunl-builder" | sha256sum -c -
+chmod +x pritunl-builder
 sudo ./pritunl-builder
 ```
