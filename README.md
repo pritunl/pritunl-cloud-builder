@@ -8,11 +8,14 @@ for Pritunl Cloud
 
 # Usage
 
-Run the commands below to download the builder and verify the checksum.
+Run the commands below to download the builder and verify the checksum. Use
+the option `--assume-yes` to assume yes to all prompts. Use the option
+`--no-start` to not start the Pritunl Cloud service after the builder is
+finished and instead start it on next boot.
 
 ```bash
-wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2142.34/pritunl-builder
-echo "37818a168802f74475a012bfa8a48023723ba6b83126337e59f81fd932cb3d21  pritunl-builder" | sha256sum -c -
+wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2144.28/pritunl-builder
+echo "d6c3451e92f4dd3afb03f0eef5bdc08d3e88629265e627daf260e68f8baf84ec  pritunl-builder" | sha256sum -c -
 chmod +x pritunl-builder
 sudo ./pritunl-builder
 ```
