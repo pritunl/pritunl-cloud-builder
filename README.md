@@ -4,7 +4,7 @@
 [![twitter](https://img.shields.io/badge/twitter-pritunl-55acee.svg?style=flat)](https://twitter.com/pritunl)
 
 [Pritunl-Cloud-Builder](https://cloud.pritunl.com) is an automated installer
-for Pritunl Cloud
+for Pritunl Cloud. Supports Oracle Linux 8 and Ubuntu 20.04.
 
 # Usage
 
