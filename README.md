@@ -15,7 +15,7 @@ finished and instead start it on next boot.
 
 ```bash
 wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2302.50/pritunl-builder
-echo "45b43194818d23b499377861bb5b4d945c19740235608f3586d398ab2c2ee251  pritunl-builder" | sha256sum -c -
+echo "20abef8e35d92857333be9ae1002de4c9c6c94aff5cfeab451fa70fcd71790ce  pritunl-builder" | sha256sum -c -
 chmod +x pritunl-builder
 sudo ./pritunl-builder
 ```
