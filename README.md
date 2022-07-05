@@ -14,8 +14,8 @@ the option `--assume-yes` to assume yes to all prompts. Use the option
 finished and instead start it on next boot.
 
 ```bash
-wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2415.20/pritunl-builder
-echo "ff2d9fcbd24b99a0ed3d6dbb92fbedf1331827680c73dbf79b481ba93bd63f46  pritunl-builder" | sha256sum -c -
+wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2415.74/pritunl-builder
+echo "3110db549b0bcf8f225ee432410b563502575f145ea420346d98b067de79cf66  pritunl-builder" | sha256sum -c -
 
 chmod +x pritunl-builder
 sudo ./pritunl-builder
