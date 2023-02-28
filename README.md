@@ -4,7 +4,7 @@
 [![twitter](https://img.shields.io/badge/twitter-pritunl-55acee.svg?style=flat)](https://twitter.com/pritunl)
 
 [Pritunl-Cloud-Builder](https://cloud.pritunl.com) is an automated installer
-for Pritunl Cloud. Supports Oracle Linux 8, AlmaLinux 8 and Ubuntu 20.04.
+for Pritunl Cloud. Supports Oracle Linux 9, AlmaLinux 9 and Ubuntu 22.04.
 
 # Usage
 
@@ -14,8 +14,8 @@ the option `--assume-yes` to assume yes to all prompts. Use the option
 finished and instead start it on next boot.
 
 ```bash
-wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2415.74/pritunl-builder
-echo "3110db549b0bcf8f225ee432410b563502575f145ea420346d98b067de79cf66  pritunl-builder" | sha256sum -c -
+wget https://github.com/pritunl/pritunl-cloud-builder/releases/download/1.0.2653.32/pritunl-builder
+echo "b1b925adbdb50661f1a8ac8941b17ec629fee752d7fe73c65ce5581a0651e5f1  pritunl-builder" | sha256sum -c -
 
 chmod +x pritunl-builder
 sudo ./pritunl-builder
